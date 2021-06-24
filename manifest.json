@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "To-Do list",
+    "description": "To-Do List",
+    "version": "1.0.0",
+    "icons": { "128": "checkmark.png"},
+    "browser_action": {
+        "default_icon": "checkmark.png",
+        "default_popup": "myindex.html"
+    },
+    
+    "permissions": ["activeTab"]
+}
